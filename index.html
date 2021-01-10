@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+          <h1>数字を当てるゲーム</h1>
+          <p class="between">(1～20までの数字を入力してください)</p>
+          <div class="number">?</div>
+        </header>
+        <main>
+          <section class="left">
+            <input type="number" id="guess"class="guess">
+            <button class="checkBTN">挑戦する</button>
+            <button id="againBTN">もう一度やってみる！</button>
+
+          </section>
+          <section class="right">
+            <p class="message"></p>
+            <p class="label-score">💯 Score: <span class="score">20</span></p>
+            <p class="label-highscore">
+              🥇 Highscore: <span class="highscore">0</span>
+            </p>
+          </section>
+        </main>
+        <script src="app.js"></script>
+      </body>
+</html>
